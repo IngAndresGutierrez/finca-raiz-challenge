@@ -1,15 +1,33 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Live Demo
+
+Open [https://finca-raiz-challenge.vercel.app/](https://finca-raiz-challenge.vercel.app/) with your browser to see the result.
+
 ## Getting Started
 
-First, run the development server:
+First, install node_modules:
+
+```bash
+npm run install
+# or
+yarn install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
+```
+
+## Run testing
+
+```bash
+npm run test
 # or
-pnpm dev
+yarn test
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
