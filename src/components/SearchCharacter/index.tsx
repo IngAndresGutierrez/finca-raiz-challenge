@@ -22,6 +22,7 @@ const SearchCharacter: FC<SearchCharacterProps> = ({
         value={searchTerm}
         onChange={handleSearch}
         className='search-character'
+        data-testid='search-character'
         placeholder='Buscar por nombre'
       />
     </div>

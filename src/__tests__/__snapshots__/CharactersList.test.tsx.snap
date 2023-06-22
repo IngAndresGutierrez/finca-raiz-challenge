@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharactersList renders correctly 1`] = `
+<div>
+  <div>
+    <h1
+      class="title"
+    >
+      Personajes de Rick and Morty
+    </h1>
+    <div
+      class="search-character-container"
+    >
+      <input
+        class="search-character"
+        data-testid="search-character"
+        placeholder="Buscar por nombre"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="cards-container"
+    />
+    <div
+      class="backdrop"
+    />
+    <div
+      class="buttons-container"
+    >
+      <button
+        class="page-button disabled loading"
+        disabled=""
+      >
+        Cargando...
+      </button>
+      <button
+        class="page-button loading"
+        disabled=""
+      >
+        Cargando...
+      </button>
+    </div>
+  </div>
+</div>
+`;
